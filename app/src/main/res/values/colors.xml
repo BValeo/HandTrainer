@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4527A0</color>
+    <color name="colorPrimaryDark">#311B92</color>
+    <color name="colorAccent">#7b1fa2</color>
+
+    <array name="colors_training">
+        <item>#EDE7F6</item>
+        <item>#D1C4E9</item>
+        <item>#B39DDB</item>
+        <item>#9575CD</item>
+        <item>#7E57C2</item>
+        <item>#673AB7</item>
+        <item>#5E35B1</item>
+        <item>#512DA8</item>
+    </array>
+
+    <color name="text_color_black">#000</color>
+    <color name="text_color_white">#FFF</color>
+</resources>

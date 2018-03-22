@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout_training"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/btn_training_control"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_choose_max_value"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:text="Начать тренировку"
+        android:textColor="@color/text_color_white"/>
+
+    <TextView
+        android:id="@+id/tw_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="0"
+        android:textSize="40sp"
+        android:textColor="@color/text_color_white"/>
+
+    <Button
+        android:id="@+id/btn_choose_max_value"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Задать количество движений"
+        android:textColor="@color/text_color_white"/>
+
+    <NumberPicker
+        android:id="@+id/np_max_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_training_control"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:visibility="invisible"
+        android:textColor="@color/text_color_white" />
+
+    <Button
+        android:id="@+id/btn_set_max_value"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/np_max_value"
+        android:layout_alignEnd="@+id/btn_choose_max_value"
+        android:text="Ок"
+        android:visibility="invisible"
+        android:textColor="@color/text_color_white" />
+</RelativeLayout>
